@@ -1,5 +1,8 @@
-# Sticky Nav
-A website made with create-react-app to create a sticky navigation bar. When the user scrolls down, the navigation bar changes into a sticky nav and is displayed on the screen at all times. The logo is also displayed in the nav.
+# Sticky Nav / React Router
+A website made with create-react-app intended to produce a sticky navigation bar as well as implement React Router. 
+- when the user scrolls down, the navigation bar changes into a sticky nav and is displayed on the screen at all times. 
+- the logo is also displayed in the nav and the nav bar changes colors with a border shadow
+- React Router enables multiple pages to be displayed on one website and linked together
 
 ## Main Page Screenshot: Regular Navigation Bar
 ![Screenshot](sticky-nav-before.jpg)
