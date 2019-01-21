@@ -3,6 +3,7 @@
 .banner {
     display: flex;
     flex-flow: column;
+    align-items: center;
     justify-content: center;
     background: url(/images/lost-mtn.jpg);
     background-repeat: no-repeat;
