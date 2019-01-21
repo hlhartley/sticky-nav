@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.banner {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background: url(/images/lost-mtn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 275px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #fff;
+    height: 275px;
+}
