@@ -1,15 +1,16 @@
 import React from 'react';
 import './Navigation.css';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = (props) => {
     return (
         <div className= { props.navFixed ? "navigation-container fixed-nav" : "navigation-container" }>
             <div className='logo'>LOST.</div>
-            <a href='www.google.com'>HOME</a>
-            <a href='www.google.com'>ABOUT</a>
-            <a href='www.google.com'>IMAGES</a>
-            <a href='www.google.com'>LOCATIONS</a>
-            <a href='www.google.com'>MAPS</a>
+            <NavLink to='/'>HOME</NavLink>
+            <NavLink to='/about'>ABOUT</NavLink>
+            <NavLink to='/images'>IMAGES</NavLink>
+            <NavLink to='/locations'>LOCATIONS</NavLink>
+            <NavLink to='/maps'>MAPS</NavLink>
         </div>
     );
 }
