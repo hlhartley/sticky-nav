@@ -35,3 +35,18 @@ a:hover {
     background-color: blue;
     width: 100%;
 }
+
+.logo {
+    max-width: 0;
+    overflow: hidden;
+    background: white;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    margin: -35px;
+}
+
+.fixed-nav .logo {
+    max-width: 500px;
+}
